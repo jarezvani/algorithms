@@ -1,18 +1,12 @@
+This repo is where to find a various assortment of useful algorithms, from basic to complex, in both Ruby and Javascript.
+   ___________________________________________________________________________________________________________________
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+##################################
+Closed Form Fibonacci Sequence
+##################################
 
+https://en.wikipedia.org/wiki/Fibonacci_number#Closed-form_expression
 
-Hi there! Welcome to Cloud9 IDE!
+This algorithm takes advantage of Binet's formula, which allows the nth Fibonacci number to be calculated in constant time. 
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+<img src ="https://wikimedia.org/api/rest_v1/media/math/render/svg/ccab7a6cd419ca36abdddee5f576e9e63220f88f">
