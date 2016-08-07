@@ -13,16 +13,11 @@ function mergeSort(a){
 function merge(left, right){
   var newArr = [];
   
-  if(!c){
-    var c = 0;
-  }
-  
   while(left.length && right.length){
     if(left[0] <= right[0]){
       newArr.push(left.shift());
     }else{
       newArr.push(right.shift());
-      c++;
     }
   }
   
@@ -34,5 +29,5 @@ function merge(left, right){
     newArr.push(right.shift());
   }
   
-  return c;
+  return newArr;
 }
