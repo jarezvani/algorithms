@@ -5,8 +5,16 @@ This repo is where to find a various assortment of useful algorithms, from basic
 Closed Form Fibonacci Sequence
 ##################################
 
-https://en.wikipedia.org/wiki/Fibonacci_number#Closed-form_expression
 
-This algorithm takes advantage of Binet's formula, which allows the nth Fibonacci number to be calculated in constant time using the least possible amount of memory. The accepted time complexity of the traditional recursive formula is ~θ(1.6^n).
+This algorithm takes advantage of <a src = "https://en.wikipedia.org/wiki/Fibonacci_number#Relation_to_the_golden_ratio">Binet's formula</a>, which allows the nth Fibonacci number to be calculated in constant time using the least possible amount of memory. The accepted time complexity of the traditional recursive formula is ~θ(1.6^n). The following is the closed-form formula (aka Binet's formula) for calculating the nth Fibonacci number:
 
 <img src ="https://wikimedia.org/api/rest_v1/media/math/render/svg/ccab7a6cd419ca36abdddee5f576e9e63220f88f">
+
+Where
+
+<img src = "https://wikimedia.org/api/rest_v1/media/math/render/svg/38016b976e1d727161649f71b221bb0fd842e75a">
+(aka the <a src="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio</a>)
+
+and
+
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e1e7c8744cf4e791ca3038f666aaed93274bbde0">
