@@ -18,3 +18,15 @@ Where
 and
 
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e1e7c8744cf4e791ca3038f666aaed93274bbde0">
+
+  ________________________________________________________________________________________________________________
+  
+  Merge Sort
+  
+  <a href="https://en.wikipedia.org/wiki/Merge_sort">Merge Sort</a> is a classic divide-and-conquer algorithm that runs in n log n time. 
+
+  ________________________________________________________________________________________________________________
+  
+  Quick Sort (using the Median of Three strategy)
+  
+  
